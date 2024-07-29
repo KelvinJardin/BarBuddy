@@ -14,12 +14,6 @@ export const metadata: Metadata = {
     description: "A simple cocktail recipe app using ingredients you have at home.",
 };
 
-const pageTitleMap = {
-    "/": "Home",
-    "/cocktails": "Cocktails",
-    "/ingredients": "Ingredients",
-};
-
 export default function RootLayout({
     children,
 }: Readonly<{
