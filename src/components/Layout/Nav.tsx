@@ -10,8 +10,8 @@ import InboxIcon from "@mui/icons-material/MoveToInbox";
 const linkGroups = [
     [
         {
-            href: "/cocktails",
-            text: "Cocktails",
+            href: "/drinks",
+            text: "Drinks",
             Icon: InboxIcon
         },
         {

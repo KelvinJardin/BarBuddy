@@ -1,9 +1,9 @@
 import * as React from 'react';
 
-import CocktailsPage from "@/app/cocktails/page";
+import DrinksPage from "@/app/drinks/page";
 
 export default function(props): React.Element {
     return (
-        <CocktailsPage {...props}/>
+        <DrinksPage {...props}/>
     );
 }

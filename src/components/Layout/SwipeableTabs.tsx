@@ -29,7 +29,7 @@ function TabPanel(props: TabPanelProps) {
         >
             {value === index && (
                 <Box sx={{ p: 3 }}>
-                    <Typography>{children}</Typography>
+                    {children}
                 </Box>
             )}
         </div>
@@ -59,9 +59,9 @@ export default function({tabs}): React.Element {
         <Tab key={index} label={label} {...a11yProps(index)} />
     ));
 
-    const tabPanels = tabs.map(({getContent}, index) => (
+    const tabPanels = tabs.map(({content}, index) => (
         <TabPanel key={index} value={value} index={index} dir={theme.direction}>
-            {getContent()}
+            {content}
         </TabPanel>
     ));
 
