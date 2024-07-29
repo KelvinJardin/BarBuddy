@@ -50,7 +50,7 @@ const DrinksPage = ({interval}): React.Element => {
 }
 
 DrinksPage.defaultProps = {
-    interval: 15000,
+    interval: 0,
 };
 
 export default DrinksPage;
