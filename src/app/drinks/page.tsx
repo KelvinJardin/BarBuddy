@@ -27,7 +27,7 @@ const Drinks = ({refresh}) : React.Element => {
     );
 }
 
-const DrinksPage = ({interval}): React.Element => {
+export default function({interval = 0}): React.Element {
     const [refresh, setRefresh] = React.useState(false);
     interval && setTimeout(() => setRefresh(!refresh), interval);
 
@@ -47,10 +47,4 @@ const DrinksPage = ({interval}): React.Element => {
     ];
 
     return (<SwipeableTabs tabs={tabs} />)
-}
-
-DrinksPage.defaultProps = {
-    interval: 0,
 };
-
-export default DrinksPage;

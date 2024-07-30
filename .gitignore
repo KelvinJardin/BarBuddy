@@ -40,3 +40,6 @@ next-env.d.ts
 
 # vars
 .env
+
+# db
+dev.db*
