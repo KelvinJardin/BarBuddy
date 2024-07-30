@@ -78,3 +78,61 @@ model Authenticator {
 
   @@id([userId, credentialID])
 }
+
+model Drink {
+  id                       Int               @id @default(autoincrement())
+  name                     String            @unique
+  categoryId               Int?
+  alcoholicTypeId          Int?
+  glassId                  Int?
+  instructions             String?
+  ingredients              DrinkIngredient[]
+
+  category      Category?      @relation(fields: [categoryId], references: [id])
+  glass         Glasses?       @relation(fields: [glassId], references: [id])
+  alcoholicType AlcoholicType? @relation(fields: [alcoholicTypeId], references: [id])
+}
+
+model Ingredient {
+  id          Int     @id @default(autoincrement())
+  name        String  @unique
+  description String?
+  alcohol     Boolean
+  categoryId  Int?
+  abv         Int?
+
+  category        Category?         @relation(fields: [categoryId], references: [id])
+  DrinkIngredient DrinkIngredient[]
+}
+
+model DrinkIngredient {
+  drinkId      Int
+  ingredientId Int
+  optional     Boolean
+  measurement  String?
+
+  drink      Drink      @relation(fields: [drinkId], references: [id], onDelete: Cascade)
+  ingredient Ingredient @relation(fields: [ingredientId], references: [id], onDelete: Cascade)
+
+  @@id([drinkId, ingredientId])
+
+}
+
+model AlcoholicType {
+  id    Int     @id @default(autoincrement())
+  name  String  @unique
+  Drink Drink[]
+}
+
+model Glasses {
+  id    Int     @id @default(autoincrement())
+  name  String  @unique
+  Drink Drink[]
+}
+
+model Category {
+  id         Int          @id @default(autoincrement())
+  name       String       @unique
+  Drink      Drink[]
+  Ingredient Ingredient[]
+}

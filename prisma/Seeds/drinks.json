@@ -1,0 +1,88 @@
+[
+	{
+		"name": "Long Island Iced Tea",
+		"category": {
+			"connect": {
+				"name": "Cocktail"
+			}
+		},
+		"alcoholicType": {
+			"connect": {
+				"name": "Alcoholic"
+			}
+		},
+		"glass": {
+			"connect": {
+				"name": "Highball"
+			}
+		},
+		"instructions": "Combine all ingredients (except cola) and pour over ice in a highball glass. Add the splash of cola for colour. Decorate with a slice of lemon and serve.",
+		"ingredients": {
+			"create": [
+				{
+					"ingredient": {
+						"connect": {
+							"name": "Vodka"
+						}
+					},
+					"measurement": "25ml",
+					"optional": false
+				},
+				{
+					"ingredient": {
+						"connect": {
+							"name": "Tequila"
+						}
+					},
+					"measurement": "25ml",
+					"optional": false
+				},
+				{
+					"ingredient": {
+						"connect": {
+							"name": "Rum"
+						}
+					},
+					"measurement": "25ml",
+					"optional": false
+				},
+				{
+					"ingredient": {
+						"connect": {
+							"name": "Gin"
+						}
+					},
+					"measurement": "25ml",
+					"optional": false
+				},
+				{
+					"ingredient": {
+						"connect": {
+							"name": "Triple Sec"
+						}
+					},
+					"measurement": "25ml",
+					"optional": false
+				},
+				{
+					"ingredient": {
+						"connect": {
+							"name": "Lemon Juice"
+						}
+					},
+					"measurement": "25ml",
+					"optional": false
+				},
+				{
+					"ingredient": {
+						"connect": {
+							"name": "Coca-Cola"
+						}
+					},
+					"measurement": "Splash",
+					"optional": false
+				}
+			]
+		}
+	}
+]

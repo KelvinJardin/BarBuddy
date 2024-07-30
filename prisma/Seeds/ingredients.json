@@ -1,0 +1,181 @@
+[
+	{
+		"name": "Tequila",
+		"alcohol": true,
+		"abv": 40,
+		"category": {
+			"connect": {
+				"name": "Alcohol"
+			}
+		}
+	},
+	{
+		"name": "Rum",
+		"alcohol": true,
+		"abv": 40,
+		"category": {
+			"connect": {
+				"name": "Alcohol"
+			}
+		}
+	},
+	{
+		"name": "Vodka",
+		"alcohol": true,
+		"abv": 40,
+		"category": {
+			"connect": {
+				"name": "Alcohol"
+			}
+		}
+	},
+	{
+		"name": "Gin",
+		"alcohol": true,
+		"abv": 40,
+		"category": {
+			"connect": {
+				"name": "Alcohol"
+			}
+		}
+	},
+	{
+		"name": "Whisky",
+		"alcohol": true,
+		"abv": 40,
+		"category": {
+			"connect": {
+				"name": "Alcohol"
+			}
+		}
+	},
+	{
+		"name": "Brandy",
+		"alcohol": true,
+		"abv": 40,
+		"category": {
+			"connect": {
+				"name": "Alcohol"
+			}
+		}
+	},
+	{
+		"name": "Cognac",
+		"alcohol": true,
+		"abv": 40,
+		"category": {
+			"connect": {
+				"name": "Alcohol"
+			}
+		}
+	},
+	{
+		"name": "Triple Sec",
+		"alcohol": true,
+		"abv": 40,
+		"category": {
+			"connect": {
+				"name": "Alcohol"
+			}
+		}
+	},
+	{
+		"name": "Lime Juice",
+		"alcohol": false,
+		"category": {
+			"connect": {
+				"name": "Soft Drink"
+			}
+		}
+	},
+	{
+		"name": "Lemon Juice",
+		"alcohol": false,
+		"category": {
+			"connect": {
+				"name": "Soft Drink"
+			}
+		}
+	},
+	{
+		"name": "Orange Juice",
+		"alcohol": false,
+		"category": {
+			"connect": {
+				"name": "Soft Drink"
+			}
+		}
+	},
+	{
+		"name": "Pineapple Juice",
+		"alcohol": false,
+		"category": {
+			"connect": {
+				"name": "Soft Drink"
+			}
+		}
+	},
+	{
+		"name": "Cranberry Juice",
+		"alcohol": false,
+		"category": {
+			"connect": {
+				"name": "Soft Drink"
+			}
+		}
+	},
+	{
+		"name": "Coca-Cola",
+		"alcohol": false,
+		"category": {
+			"connect": {
+				"name": "Soda"
+			}
+		}
+	},
+	{
+		"name": "Salt",
+		"alcohol": false,
+		"category": {
+			"connect": {
+				"name": "Condiment"
+			}
+		}
+	},
+	{
+		"name": "Ice",
+		"alcohol": false,
+		"category": {
+			"connect": {
+				"name": "Other"
+			}
+		}
+	},
+	{
+		"name": "Sugar",
+		"alcohol": false,
+		"category": {
+			"connect": {
+				"name": "Condiment"
+			}
+		}
+	},
+	{
+		"name": "Mint",
+		"alcohol": false,
+		"category": {
+			"connect": {
+				"name": "Garnish"
+			}
+		}
+	},
+	{
+		"name": "Lemonade",
+		"alcohol": false,
+		"category": {
+			"connect": {
+				"name": "Soda"
+			}
+		}
+	}
+]
