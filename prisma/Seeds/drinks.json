@@ -84,5 +84,82 @@
 				}
 			]
 		}
+	},
+	{
+		"name": "Pina Colada",
+		"category": {
+			"connect": {
+				"name": "Cocktail"
+			}
+		},
+		"alcoholicType": {
+			"connect": {
+				"name": "Alcoholic"
+			}
+		},
+"glass": {
+			"connect": {
+				"name": "Hurricane"
+			}
+		},
+		"instructions": "Blend all the ingredients with ice in a electric blender, pour into a large goblet or Hurricane glass and serve.",
+		"ingredients": {
+			"create": [
+				{
+					"ingredient": {
+						"connect": {
+							"name": "Rum"
+						}
+					},
+					"measurement": "30ml",
+					"optional": false
+				},
+				{
+					"ingredient": {
+						"connect": {
+							"name": "Coconut Cream"
+						}
+					},
+					"measurement": "90ml",
+					"optional": false
+				},
+				{
+					"ingredient": {
+						"connect": {
+							"name": "Pineapple Juice"
+						}
+					},
+					"measurement": "120ml",
+					"optional": false
+				},
+				{
+					"ingredient": {
+						"connect": {
+							"name": "Ice"
+						}
+					},
+					"measurement": "3 cubes",
+					"optional": false
+				},
+				{
+					"ingredient": {
+						"connect": {
+							"name": "Pineapple"
+						}
+					},
+					"measurement": "Slice",
+					"optional": true
+				},
+				{
+					"ingredient": {
+						"connect": {
+							"name": "Cherry"
+						}
+					},
+					"measurement": "1",
+					"optional": true
+				}
+			]
+		}
 	}
 ]

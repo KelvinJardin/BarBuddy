@@ -12,6 +12,7 @@ export default async function run() {
         "Soda",
         "Condiment",
         "Garnish",
+        "Fruit",
         "Other",
     ]
 

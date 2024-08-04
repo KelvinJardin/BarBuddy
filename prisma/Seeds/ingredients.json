@@ -177,5 +177,32 @@
 				"name": "Soda"
 			}
 		}
+	},
+	{
+		"name": "Coconut Cream",
+		"alcohol": false,
+		"category": {
+			"connect": {
+				"name": "Soft Drink"
+			}
+		}
+	},
+	{
+		"name": "Pineapple",
+		"alcohol": false,
+		"category": {
+			"connect": {
+				"name": "Fruit"
+			}
+		}
+	},
+	{
+		"name": "Cherry",
+		"alcohol": false,
+		"category": {
+			"connect": {
+				"name": "Fruit"
+			}
+		}
 	}
 ]
